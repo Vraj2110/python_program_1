@@ -1,4 +1,4 @@
-# Working with variables, data types, and basic input/output operations in Python
+
 
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
@@ -24,3 +24,11 @@ print("message =", message, "->", type(message).__name__)
 print("count =", count, "->", type(count).__name__)
 print("price =", price, "->", type(price).__name__)
 print("valid =", valid, "->", type(valid).__name__)
+
+
+a = int(input("Enter a first integer: "))
+b = int(input("Enter a second integer: "))
+print("Sum:", a + b)
+print("Difference:", a - b)
+print("Product:", a * b)
+print("Quotient:", a / b)
